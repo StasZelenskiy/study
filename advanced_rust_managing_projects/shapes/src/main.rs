@@ -1,7 +1,5 @@
 use shapes::{Rectangle, Circle, Feature};
 
-mod shapes;
-
 fn main() {
     let rect = Rectangle::new(1.0, 2.0);
     let area = rect.get_feature(Feature::Area);
